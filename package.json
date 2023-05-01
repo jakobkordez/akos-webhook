@@ -1,0 +1,19 @@
+{
+  "name": "akos-webhook",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Discord webhook for AKOS callsigns",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jakob [S52KJ]",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cron": "^2.3.0",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  }
+}
